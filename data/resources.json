@@ -1,0 +1,125 @@
+[
+  {
+    "topic": "The Reliability of the Bible",
+    "claim": "Scripture is historically and textually reliable.",
+    "framework": [
+      "Start with manuscript evidence: the New Testament has thousands of early manuscript witnesses.",
+      "Point to archaeological confirmations for people, places, and cultural details.",
+      "Explain internal coherence across many authors over centuries.",
+      "Invite comparison with other ancient documents accepted by historians."
+    ],
+    "scripture": ["2 Timothy 3:16", "2 Peter 1:20-21", "Luke 1:1-4"],
+    "teacher": "R.C. Sproul",
+    "resourceTitle": "Can I Trust the Bible?",
+    "resourceType": "Book",
+    "resourceUrl": "https://www.ligonier.org/store/can-i-trust-the-bible-paperback",
+    "keywords": ["inerrancy", "manuscripts", "authority", "history"]
+  },
+  {
+    "topic": "The Resurrection of Jesus",
+    "claim": "The resurrection is the best explanation of the historical data.",
+    "framework": [
+      "Present key facts accepted by many scholars: crucifixion, empty tomb claims, post-resurrection appearances, transformed disciples.",
+      "Evaluate naturalistic alternatives and show their weaknesses.",
+      "Explain that Christianity rises or falls on this historical event."
+    ],
+    "scripture": ["1 Corinthians 15:3-8", "Luke 24:36-48", "Acts 2:22-32"],
+    "teacher": "William Lane Craig",
+    "resourceTitle": "Reasonable Faith: The Historical Case for Jesus",
+    "resourceType": "Ministry Resource",
+    "resourceUrl": "https://www.reasonablefaith.org/writings/question-answer/the-historicity-of-the-empty-tomb-of-jesus",
+    "keywords": ["empty tomb", "historical Jesus", "gospel", "evidence"]
+  },
+  {
+    "topic": "The Problem of Evil",
+    "claim": "Christian faith gives a coherent account of evil, justice, and hope.",
+    "framework": [
+      "Distinguish logical and emotional forms of the problem.",
+      "Show that evil presupposes an objective moral standard.",
+      "Explain the biblical story: creation, fall, redemption, restoration.",
+      "Point to the cross as God entering suffering, not ignoring it."
+    ],
+    "scripture": ["Romans 8:18-39", "Genesis 3", "Psalm 73"],
+    "teacher": "Tim Keller",
+    "resourceTitle": "Walking with God through Pain and Suffering",
+    "resourceType": "Book",
+    "resourceUrl": "https://timothykeller.com/books/walking-with-god-through-pain-and-suffering",
+    "keywords": ["suffering", "theodicy", "hope", "justice"]
+  },
+  {
+    "topic": "The Trinity",
+    "claim": "The one true God eternally exists as Father, Son, and Holy Spirit.",
+    "framework": [
+      "Affirm monotheism from Scripture.",
+      "Show that the Father, Son, and Spirit are each called God.",
+      "Demonstrate personal distinction among the three persons.",
+      "Clarify that Trinity is not contradiction but revealed mystery."
+    ],
+    "scripture": ["Matthew 28:19", "2 Corinthians 13:14", "John 1:1-18"],
+    "teacher": "Wayne Grudem",
+    "resourceTitle": "Systematic Theology (Doctrine of God)",
+    "resourceType": "Book",
+    "resourceUrl": "https://zondervanacademic.com/products/systematic-theology-second-edition",
+    "keywords": ["doctrine of God", "Father Son Spirit", "orthodoxy"]
+  },
+  {
+    "topic": "Faith and Reason",
+    "claim": "Christian faith is rational trust grounded in truth, not blind leap.",
+    "framework": [
+      "Define biblical faith as trust based on God's revealed character and acts.",
+      "Use cumulative case reasoning: cosmology, morality, historical Jesus, and personal transformation.",
+      "Invite honest questions and patient investigation."
+    ],
+    "scripture": ["Isaiah 1:18", "Acts 17:2-3", "1 Peter 3:15"],
+    "teacher": "Alister McGrath",
+    "resourceTitle": "Mere Apologetics",
+    "resourceType": "Book",
+    "resourceUrl": "https://www.ivpress.com/mere-apologetics",
+    "keywords": ["reason", "worldview", "evangelism", "dialogue"]
+  },
+  {
+    "topic": "Exclusivity of Christ",
+    "claim": "Jesus uniquely reconciles sinners to God.",
+    "framework": [
+      "Explain Jesus' unique identity and work in Scripture.",
+      "Clarify that exclusivity is rooted in truth and grace, not superiority.",
+      "Share the universal invitation of the gospel to all peoples."
+    ],
+    "scripture": ["John 14:6", "Acts 4:12", "1 Timothy 2:5-6"],
+    "teacher": "John Stott",
+    "resourceTitle": "The Cross of Christ",
+    "resourceType": "Book",
+    "resourceUrl": "https://www.ivpress.com/the-cross-of-christ",
+    "keywords": ["salvation", "atonement", "gospel", "missions"]
+  },
+  {
+    "topic": "Moral Argument",
+    "claim": "Objective moral values are best explained by God's existence and character.",
+    "framework": [
+      "Ask whether real moral obligations exist beyond preference.",
+      "Argue that objective morality points beyond material processes.",
+      "Show that Christianity grounds morality in a holy and loving God."
+    ],
+    "scripture": ["Romans 2:14-15", "Micah 6:8", "James 4:12"],
+    "teacher": "C.S. Lewis",
+    "resourceTitle": "Mere Christianity (Book I)",
+    "resourceType": "Book",
+    "resourceUrl": "https://www.harpercollins.com/products/mere-christianity-c-s-lewis",
+    "keywords": ["ethics", "conscience", "natural law", "God"]
+  },
+  {
+    "topic": "Holiness and Assurance",
+    "claim": "The gospel produces both deep assurance and real sanctification.",
+    "framework": [
+      "Ground assurance in Christ's finished work, not fluctuating emotion.",
+      "Call believers to pursue holiness by the Spirit's power.",
+      "Use means of grace: Scripture, prayer, church, sacraments."
+    ],
+    "scripture": ["Romans 8:1", "1 John 5:13", "Hebrews 12:14"],
+    "teacher": "J.I. Packer",
+    "resourceTitle": "Knowing God",
+    "resourceType": "Book",
+    "resourceUrl": "https://www.ivpress.com/knowing-god",
+    "keywords": ["assurance", "sanctification", "discipleship", "gospel"]
+  }
+]

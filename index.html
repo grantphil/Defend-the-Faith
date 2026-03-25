@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="A cross-platform Protestant apologetics app for defending the Christian faith with trusted sources."
+    />
+    <title>Defend the Faith</title>
+    <link rel="manifest" href="manifest.json" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="hero">
+      <p class="kicker">Defend the Faith</p>
+      <h1>Biblical, historical, and practical apologetics for everyday conversations.</h1>
+      <p>
+        Works on iPhone, Android, Mac, and PC through any modern browser. Install it as a lightweight app from your browser menu.
+      </p>
+      <button id="installButton" hidden>Install App</button>
+    </header>
+
+    <main>
+      <section class="panel">
+        <h2>Quick Response Builder</h2>
+        <p>Choose a topic to get a concise, Protestant-friendly response framework.</p>
+        <label for="topicSelect">Topic</label>
+        <select id="topicSelect"></select>
+        <article id="responseCard" class="response-card" aria-live="polite"></article>
+      </section>
+
+      <section class="panel">
+        <h2>Search Trusted Resources</h2>
+        <label for="searchInput">Search by topic, theologian, or keyword</label>
+        <input id="searchInput" type="search" placeholder="e.g., resurrection, Trinity, Sproul" />
+        <div id="resourceList" class="resource-grid" aria-live="polite"></div>
+      </section>
+
+      <section class="panel">
+        <h2>Trusted Protestant Teachers Included</h2>
+        <ul class="teacher-list">
+          <li>R.C. Sproul</li>
+          <li>J.I. Packer</li>
+          <li>John Stott</li>
+          <li>Tim Keller</li>
+          <li>William Lane Craig</li>
+          <li>Alister McGrath</li>
+          <li>Wayne Grudem</li>
+          <li>C.S. Lewis</li>
+        </ul>
+      </section>
+    </main>
+
+    <footer>
+      <small>
+        Verify all claims with Scripture and your local church leadership. This tool is designed to assist, not replace, wise discipleship.
+      </small>
+    </footer>
+
+    <script src="app.js" type="module"></script>
+  </body>
+</html>
