@@ -1,6 +1,6 @@
 {
   "name": "Defend the Faith",
-  "short_name": "FaithDefense",
+  "short_name": "Defend the Faith",
   "description": "Cross-platform Protestant apologetics helper for defending Christian faith.",
   "start_url": "./",
   "display": "standalone",

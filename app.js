@@ -40,6 +40,9 @@ function renderResponse(index) {
     <h3>${escapeHtml(item.topic)}</h3>
     <p class="response-meta"><strong>Core claim:</strong> ${escapeHtml(item.claim)}</p>
 
+    <p><strong>Typical argument (defined):</strong> ${escapeHtml(item.argumentDefinition || item.typicalObjection || 'No argument definition added yet.')}</p>
+    <p class="example"><strong>Example argument:</strong> ${escapeHtml(item.argumentExample || item.objectionExample || 'No example added yet.')}</p>
+
     <p><strong>How to answer clearly:</strong></p>
     <ol>
       ${item.framework.map((point) => `<li>${escapeHtml(point)}</li>`).join('')}
@@ -61,6 +64,10 @@ function matchesSearch(item, query) {
     item.teacher,
     item.resourceTitle,
     item.resourceType,
+    item.argumentDefinition || "",
+    item.argumentExample || "",
+    item.typicalObjection || "",
+    item.objectionExample || "",
     ...item.scripture,
     ...item.keywords,
   ]
