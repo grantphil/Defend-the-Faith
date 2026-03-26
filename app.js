@@ -40,9 +40,6 @@ function renderResponse(index) {
     <h3>${escapeHtml(item.topic)}</h3>
     <p class="response-meta"><strong>Core claim:</strong> ${escapeHtml(item.claim)}</p>
 
-    <p><strong>Typical objection:</strong> ${escapeHtml(item.typicalObjection || 'No objection added yet.')}</p>
-    <p class="example"><strong>Example objection:</strong> ${escapeHtml(item.objectionExample || 'No example added yet.')}</p>
-
     <p><strong>How to answer clearly:</strong></p>
     <ol>
       ${item.framework.map((point) => `<li>${escapeHtml(point)}</li>`).join('')}

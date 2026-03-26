@@ -146,13 +146,6 @@ body {
   margin-top: 0.4rem;
 }
 
-.example {
-  background: #fff7ed;
-  border: 1px solid #fdba74;
-  border-radius: 0.65rem;
-  padding: 0.7rem;
-}
-
 .scripture,
 .next-step {
   background: var(--surface-soft);

@@ -61,18 +61,3 @@ This repository now includes `.github/workflows/deploy-pages.yml` to automatical
 - Organizes apologetics help by common questions (resurrection, Trinity, evil, authority of Scripture, etc.).
 - Keeps Scripture references central in every topic.
 
-
-## GitHub Pages Actions error troubleshooting
-
-If Actions fails with:
-
-`Get Pages site failed ... Not Found`
-
-then GitHub Pages is not yet enabled for the repository.
-
-Fix:
-1. Go to **Settings → Pages**.
-2. Under **Build and deployment**, set **Source = GitHub Actions**.
-3. Re-run the workflow.
-
-This repository's workflow also sets `enablement: true` for `actions/configure-pages`, which helps bootstrap Pages enablement in supported repositories.

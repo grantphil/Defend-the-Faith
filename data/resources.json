@@ -8,23 +8,12 @@
       "Explain internal coherence across many authors over centuries.",
       "Invite comparison with other ancient documents accepted by historians."
     ],
-    "scripture": [
-      "2 Timothy 3:16",
-      "2 Peter 1:20-21",
-      "Luke 1:1-4"
-    ],
+    "scripture": ["2 Timothy 3:16", "2 Peter 1:20-21", "Luke 1:1-4"],
     "teacher": "R.C. Sproul",
     "resourceTitle": "Can I Trust the Bible?",
     "resourceType": "Book",
     "resourceUrl": "https://www.ligonier.org/store/can-i-trust-the-bible-paperback",
-    "keywords": [
-      "inerrancy",
-      "manuscripts",
-      "authority",
-      "history"
-    ],
-    "typicalObjection": "The Bible has been changed too much over time to be trusted.",
-    "objectionExample": "Example objection: 'Isn't the Bible just copied so many times that we can't know the original message?'"
+    "keywords": ["inerrancy", "manuscripts", "authority", "history"]
   },
   {
     "topic": "The Resurrection of Jesus",
@@ -34,23 +23,12 @@
       "Evaluate naturalistic alternatives and show their weaknesses.",
       "Explain that Christianity rises or falls on this historical event."
     ],
-    "scripture": [
-      "1 Corinthians 15:3-8",
-      "Luke 24:36-48",
-      "Acts 2:22-32"
-    ],
+    "scripture": ["1 Corinthians 15:3-8", "Luke 24:36-48", "Acts 2:22-32"],
     "teacher": "William Lane Craig",
     "resourceTitle": "Reasonable Faith: The Historical Case for Jesus",
     "resourceType": "Ministry Resource",
     "resourceUrl": "https://www.reasonablefaith.org/writings/question-answer/the-historicity-of-the-empty-tomb-of-jesus",
-    "keywords": [
-      "empty tomb",
-      "historical Jesus",
-      "gospel",
-      "evidence"
-    ],
-    "typicalObjection": "The resurrection was a legend or hallucination, not a real historical event.",
-    "objectionExample": "Example objection: 'People in grief can hallucinate, so the resurrection appearances prove nothing.'"
+    "keywords": ["empty tomb", "historical Jesus", "gospel", "evidence"]
   },
   {
     "topic": "The Problem of Evil",
@@ -61,23 +39,12 @@
       "Explain the biblical story: creation, fall, redemption, restoration.",
       "Point to the cross as God entering suffering, not ignoring it."
     ],
-    "scripture": [
-      "Romans 8:18-39",
-      "Genesis 3",
-      "Psalm 73"
-    ],
+    "scripture": ["Romans 8:18-39", "Genesis 3", "Psalm 73"],
     "teacher": "Tim Keller",
     "resourceTitle": "Walking with God through Pain and Suffering",
     "resourceType": "Book",
     "resourceUrl": "https://timothykeller.com/books/walking-with-god-through-pain-and-suffering",
-    "keywords": [
-      "suffering",
-      "theodicy",
-      "hope",
-      "justice"
-    ],
-    "typicalObjection": "A good and all-powerful God would not allow evil and suffering.",
-    "objectionExample": "Example objection: 'If God is loving, why do children suffer and die?'"
+    "keywords": ["suffering", "theodicy", "hope", "justice"]
   },
   {
     "topic": "The Trinity",
@@ -88,22 +55,12 @@
       "Demonstrate personal distinction among the three persons.",
       "Clarify that Trinity is not contradiction but revealed mystery."
     ],
-    "scripture": [
-      "Matthew 28:19",
-      "2 Corinthians 13:14",
-      "John 1:1-18"
-    ],
+    "scripture": ["Matthew 28:19", "2 Corinthians 13:14", "John 1:1-18"],
     "teacher": "Wayne Grudem",
     "resourceTitle": "Systematic Theology (Doctrine of God)",
     "resourceType": "Book",
     "resourceUrl": "https://zondervanacademic.com/products/systematic-theology-second-edition",
-    "keywords": [
-      "doctrine of God",
-      "Father Son Spirit",
-      "orthodoxy"
-    ],
-    "typicalObjection": "The Trinity is irrational and contradicts belief in one God.",
-    "objectionExample": "Example objection: 'How can Christians say God is one and also three at the same time?'"
+    "keywords": ["doctrine of God", "Father Son Spirit", "orthodoxy"]
   },
   {
     "topic": "Faith and Reason",
@@ -113,23 +70,12 @@
       "Use cumulative case reasoning: cosmology, morality, historical Jesus, and personal transformation.",
       "Invite honest questions and patient investigation."
     ],
-    "scripture": [
-      "Isaiah 1:18",
-      "Acts 17:2-3",
-      "1 Peter 3:15"
-    ],
+    "scripture": ["Isaiah 1:18", "Acts 17:2-3", "1 Peter 3:15"],
     "teacher": "Alister McGrath",
     "resourceTitle": "Mere Apologetics",
     "resourceType": "Book",
     "resourceUrl": "https://www.ivpress.com/mere-apologetics",
-    "keywords": [
-      "reason",
-      "worldview",
-      "evangelism",
-      "dialogue"
-    ],
-    "typicalObjection": "Faith means believing without evidence, so Christianity is intellectually weak.",
-    "objectionExample": "Example objection: 'You just have faith because it comforts you, not because it's true.'"
+    "keywords": ["reason", "worldview", "evangelism", "dialogue"]
   },
   {
     "topic": "Exclusivity of Christ",
@@ -139,23 +85,12 @@
       "Clarify that exclusivity is rooted in truth and grace, not superiority.",
       "Share the universal invitation of the gospel to all peoples."
     ],
-    "scripture": [
-      "John 14:6",
-      "Acts 4:12",
-      "1 Timothy 2:5-6"
-    ],
+    "scripture": ["John 14:6", "Acts 4:12", "1 Timothy 2:5-6"],
     "teacher": "John Stott",
     "resourceTitle": "The Cross of Christ",
     "resourceType": "Book",
     "resourceUrl": "https://www.ivpress.com/the-cross-of-christ",
-    "keywords": [
-      "salvation",
-      "atonement",
-      "gospel",
-      "missions"
-    ],
-    "typicalObjection": "It is intolerant to say Jesus is the only way to God.",
-    "objectionExample": "Example objection: 'All religions basically teach the same thing, so why insist on Jesus only?'"
+    "keywords": ["salvation", "atonement", "gospel", "missions"]
   },
   {
     "topic": "Moral Argument",
@@ -165,23 +100,12 @@
       "Argue that objective morality points beyond material processes.",
       "Show that Christianity grounds morality in a holy and loving God."
     ],
-    "scripture": [
-      "Romans 2:14-15",
-      "Micah 6:8",
-      "James 4:12"
-    ],
+    "scripture": ["Romans 2:14-15", "Micah 6:8", "James 4:12"],
     "teacher": "C.S. Lewis",
     "resourceTitle": "Mere Christianity (Book I)",
     "resourceType": "Book",
     "resourceUrl": "https://www.harpercollins.com/products/mere-christianity-c-s-lewis",
-    "keywords": [
-      "ethics",
-      "conscience",
-      "natural law",
-      "God"
-    ],
-    "typicalObjection": "Morality can be explained by culture and evolution without God.",
-    "objectionExample": "Example objection: 'People can be moral without religion, so God is unnecessary for ethics.'"
+    "keywords": ["ethics", "conscience", "natural law", "God"]
   },
   {
     "topic": "Holiness and Assurance",
@@ -191,22 +115,11 @@
       "Call believers to pursue holiness by the Spirit's power.",
       "Use means of grace: Scripture, prayer, church, sacraments."
     ],
-    "scripture": [
-      "Romans 8:1",
-      "1 John 5:13",
-      "Hebrews 12:14"
-    ],
+    "scripture": ["Romans 8:1", "1 John 5:13", "Hebrews 12:14"],
     "teacher": "J.I. Packer",
     "resourceTitle": "Knowing God",
     "resourceType": "Book",
     "resourceUrl": "https://www.ivpress.com/knowing-god",
-    "keywords": [
-      "assurance",
-      "sanctification",
-      "discipleship",
-      "gospel"
-    ],
-    "typicalObjection": "Assurance of salvation either leads to complacency or is impossible to know.",
-    "objectionExample": "Example objection: 'If salvation is secure, why pursue holiness at all?'"
+    "keywords": ["assurance", "sanctification", "discipleship", "gospel"]
   }
 ]
