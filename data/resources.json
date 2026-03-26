@@ -1,0 +1,228 @@
+[
+  {
+    "topic": "The Reliability of the Bible",
+    "claim": "Scripture is historically and textually reliable.",
+    "framework": [
+      "Start with manuscript evidence: the New Testament has thousands of early manuscript witnesses.",
+      "Point to archaeological confirmations for people, places, and cultural details.",
+      "Explain internal coherence across many authors over centuries.",
+      "Invite comparison with other ancient documents accepted by historians."
+    ],
+    "scripture": [
+      "2 Timothy 3:16",
+      "2 Peter 1:20-21",
+      "Luke 1:1-4"
+    ],
+    "teacher": "R.C. Sproul",
+    "resourceTitle": "Can I Trust the Bible?",
+    "resourceType": "Book",
+    "resourceUrl": "https://www.ligonier.org/store/can-i-trust-the-bible-paperback",
+    "keywords": [
+      "inerrancy",
+      "manuscripts",
+      "authority",
+      "history"
+    ],
+    "typicalObjection": "The Bible has been changed too much over time to be trusted.",
+    "objectionExample": "Example objection: 'Isn't the Bible just copied so many times that we can't know the original message?'",
+    "argumentDefinition": "This argument claims the biblical text became corrupted through copying and translation, so we cannot know what was originally written.",
+    "argumentExample": "Example: 'The Bible has been copied so many times that it's basically a legend now.'"
+  },
+  {
+    "topic": "The Resurrection of Jesus",
+    "claim": "The resurrection is the best explanation of the historical data.",
+    "framework": [
+      "Present key facts accepted by many scholars: crucifixion, empty tomb claims, post-resurrection appearances, transformed disciples.",
+      "Evaluate naturalistic alternatives and show their weaknesses.",
+      "Explain that Christianity rises or falls on this historical event."
+    ],
+    "scripture": [
+      "1 Corinthians 15:3-8",
+      "Luke 24:36-48",
+      "Acts 2:22-32"
+    ],
+    "teacher": "William Lane Craig",
+    "resourceTitle": "Reasonable Faith: The Historical Case for Jesus",
+    "resourceType": "Ministry Resource",
+    "resourceUrl": "https://www.reasonablefaith.org/writings/question-answer/the-historicity-of-the-empty-tomb-of-jesus",
+    "keywords": [
+      "empty tomb",
+      "historical Jesus",
+      "gospel",
+      "evidence"
+    ],
+    "typicalObjection": "The resurrection was a legend or hallucination, not a real historical event.",
+    "objectionExample": "Example objection: 'People in grief can hallucinate, so the resurrection appearances prove nothing.'",
+    "argumentDefinition": "This argument claims resurrection reports are better explained by natural causes (legend, hallucination, or myth) than by a real bodily resurrection.",
+    "argumentExample": "Example: 'The disciples only thought they saw Jesus; grief experiences explain it.'"
+  },
+  {
+    "topic": "The Problem of Evil",
+    "claim": "Christian faith gives a coherent account of evil, justice, and hope.",
+    "framework": [
+      "Distinguish logical and emotional forms of the problem.",
+      "Show that evil presupposes an objective moral standard.",
+      "Explain the biblical story: creation, fall, redemption, restoration.",
+      "Point to the cross as God entering suffering, not ignoring it."
+    ],
+    "scripture": [
+      "Romans 8:18-39",
+      "Genesis 3",
+      "Psalm 73"
+    ],
+    "teacher": "Tim Keller",
+    "resourceTitle": "Walking with God through Pain and Suffering",
+    "resourceType": "Book",
+    "resourceUrl": "https://timothykeller.com/books/walking-with-god-through-pain-and-suffering",
+    "keywords": [
+      "suffering",
+      "theodicy",
+      "hope",
+      "justice"
+    ],
+    "typicalObjection": "A good and all-powerful God would not allow evil and suffering.",
+    "objectionExample": "Example objection: 'If God is loving, why do children suffer and die?'",
+    "argumentDefinition": "This argument claims evil is logically incompatible with an all-good, all-powerful God, so God's existence is unlikely.",
+    "argumentExample": "Example: 'If God can stop evil and wants to stop evil, why does He allow massive suffering?'"
+  },
+  {
+    "topic": "The Trinity",
+    "claim": "The one true God eternally exists as Father, Son, and Holy Spirit.",
+    "framework": [
+      "Affirm monotheism from Scripture.",
+      "Show that the Father, Son, and Spirit are each called God.",
+      "Demonstrate personal distinction among the three persons.",
+      "Clarify that Trinity is not contradiction but revealed mystery."
+    ],
+    "scripture": [
+      "Matthew 28:19",
+      "2 Corinthians 13:14",
+      "John 1:1-18"
+    ],
+    "teacher": "Wayne Grudem",
+    "resourceTitle": "Systematic Theology (Doctrine of God)",
+    "resourceType": "Book",
+    "resourceUrl": "https://zondervanacademic.com/products/systematic-theology-second-edition",
+    "keywords": [
+      "doctrine of God",
+      "Father Son Spirit",
+      "orthodoxy"
+    ],
+    "typicalObjection": "The Trinity is irrational and contradicts belief in one God.",
+    "objectionExample": "Example objection: 'How can Christians say God is one and also three at the same time?'",
+    "argumentDefinition": "This argument claims the Trinity is a contradiction, asserting Christianity teaches both one God and three Gods at the same time.",
+    "argumentExample": "Example: 'The Trinity sounds like 1=3, which makes no sense logically.'"
+  },
+  {
+    "topic": "Faith and Reason",
+    "claim": "Christian faith is rational trust grounded in truth, not blind leap.",
+    "framework": [
+      "Define biblical faith as trust based on God's revealed character and acts.",
+      "Use cumulative case reasoning: cosmology, morality, historical Jesus, and personal transformation.",
+      "Invite honest questions and patient investigation."
+    ],
+    "scripture": [
+      "Isaiah 1:18",
+      "Acts 17:2-3",
+      "1 Peter 3:15"
+    ],
+    "teacher": "Alister McGrath",
+    "resourceTitle": "Mere Apologetics",
+    "resourceType": "Book",
+    "resourceUrl": "https://www.ivpress.com/mere-apologetics",
+    "keywords": [
+      "reason",
+      "worldview",
+      "evangelism",
+      "dialogue"
+    ],
+    "typicalObjection": "Faith means believing without evidence, so Christianity is intellectually weak.",
+    "objectionExample": "Example objection: 'You just have faith because it comforts you, not because it's true.'",
+    "argumentDefinition": "This argument claims Christian faith is belief without evidence and therefore intellectually inferior to scientific or secular reasoning.",
+    "argumentExample": "Example: 'Faith means turning your brain off and believing anyway.'"
+  },
+  {
+    "topic": "Exclusivity of Christ",
+    "claim": "Jesus uniquely reconciles sinners to God.",
+    "framework": [
+      "Explain Jesus' unique identity and work in Scripture.",
+      "Clarify that exclusivity is rooted in truth and grace, not superiority.",
+      "Share the universal invitation of the gospel to all peoples."
+    ],
+    "scripture": [
+      "John 14:6",
+      "Acts 4:12",
+      "1 Timothy 2:5-6"
+    ],
+    "teacher": "John Stott",
+    "resourceTitle": "The Cross of Christ",
+    "resourceType": "Book",
+    "resourceUrl": "https://www.ivpress.com/the-cross-of-christ",
+    "keywords": [
+      "salvation",
+      "atonement",
+      "gospel",
+      "missions"
+    ],
+    "typicalObjection": "It is intolerant to say Jesus is the only way to God.",
+    "objectionExample": "Example objection: 'All religions basically teach the same thing, so why insist on Jesus only?'",
+    "argumentDefinition": "This argument claims saying Jesus is the only way is morally wrong because it excludes sincere people in other religions.",
+    "argumentExample": "Example: 'It is arrogant and intolerant to say only Christians can be saved.'"
+  },
+  {
+    "topic": "Moral Argument",
+    "claim": "Objective moral values are best explained by God's existence and character.",
+    "framework": [
+      "Ask whether real moral obligations exist beyond preference.",
+      "Argue that objective morality points beyond material processes.",
+      "Show that Christianity grounds morality in a holy and loving God."
+    ],
+    "scripture": [
+      "Romans 2:14-15",
+      "Micah 6:8",
+      "James 4:12"
+    ],
+    "teacher": "C.S. Lewis",
+    "resourceTitle": "Mere Christianity (Book I)",
+    "resourceType": "Book",
+    "resourceUrl": "https://www.harpercollins.com/products/mere-christianity-c-s-lewis",
+    "keywords": [
+      "ethics",
+      "conscience",
+      "natural law",
+      "God"
+    ],
+    "typicalObjection": "Morality can be explained by culture and evolution without God.",
+    "objectionExample": "Example objection: 'People can be moral without religion, so God is unnecessary for ethics.'",
+    "argumentDefinition": "This argument claims morality can be fully explained by evolution, social contracts, and culture without needing God.",
+    "argumentExample": "Example: 'We evolved moral behavior to survive in groups; God is unnecessary.'"
+  },
+  {
+    "topic": "Holiness and Assurance",
+    "claim": "The gospel produces both deep assurance and real sanctification.",
+    "framework": [
+      "Ground assurance in Christ's finished work, not fluctuating emotion.",
+      "Call believers to pursue holiness by the Spirit's power.",
+      "Use means of grace: Scripture, prayer, church, sacraments."
+    ],
+    "scripture": [
+      "Romans 8:1",
+      "1 John 5:13",
+      "Hebrews 12:14"
+    ],
+    "teacher": "J.I. Packer",
+    "resourceTitle": "Knowing God",
+    "resourceType": "Book",
+    "resourceUrl": "https://www.ivpress.com/knowing-god",
+    "keywords": [
+      "assurance",
+      "sanctification",
+      "discipleship",
+      "gospel"
+    ],
+    "typicalObjection": "Assurance of salvation either leads to complacency or is impossible to know.",
+    "objectionExample": "Example objection: 'If salvation is secure, why pursue holiness at all?'",
+    "argumentDefinition": "This argument claims assurance of salvation either produces complacency (no motivation for holiness) or is impossible to possess.",
+    "argumentExample": "Example: 'If you are already secure, why would obedience and holiness matter?'"
+  }
+]
