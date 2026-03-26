@@ -40,6 +40,11 @@ function renderResponse(index) {
     <h3>${escapeHtml(item.topic)}</h3>
     <p class="response-meta"><strong>Core claim:</strong> ${escapeHtml(item.claim)}</p>
 
+    <h4 class="section-title">Understand the objection</h4>
+    <p><strong>Typical argument (defined):</strong> ${escapeHtml(item.argumentDefinition || item.typicalObjection || 'No argument definition added yet.')}</p>
+    <p class="example"><strong>Example argument:</strong> ${escapeHtml(item.argumentExample || item.objectionExample || 'No example added yet.')}</p>
+
+    <h4 class="section-title">How to answer clearly</h4>
     <p><strong>Typical argument (defined):</strong> ${escapeHtml(item.argumentDefinition || item.typicalObjection || 'No argument definition added yet.')}</p>
     <p class="example"><strong>Example argument:</strong> ${escapeHtml(item.argumentExample || item.objectionExample || 'No example added yet.')}</p>
 
