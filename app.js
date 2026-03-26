@@ -45,6 +45,10 @@ function renderResponse(index) {
     <p class="example"><strong>Example argument:</strong> ${escapeHtml(item.argumentExample || item.objectionExample || 'No example added yet.')}</p>
 
     <h4 class="section-title">How to answer clearly</h4>
+    <p><strong>Typical argument (defined):</strong> ${escapeHtml(item.argumentDefinition || item.typicalObjection || 'No argument definition added yet.')}</p>
+    <p class="example"><strong>Example argument:</strong> ${escapeHtml(item.argumentExample || item.objectionExample || 'No example added yet.')}</p>
+
+    <p><strong>How to answer clearly:</strong></p>
     <ol>
       ${item.framework.map((point) => `<li>${escapeHtml(point)}</li>`).join('')}
     </ol>
