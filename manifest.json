@@ -1,0 +1,17 @@
+{
+  "name": "Defend the Faith",
+  "short_name": "Defend the Faith",
+  "description": "Cross-platform Protestant apologetics helper for defending Christian faith.",
+  "start_url": "./",
+  "display": "standalone",
+  "background_color": "#0f172a",
+  "theme_color": "#1d4ed8",
+  "icons": [
+    {
+      "src": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 512 512'%3E%3Crect width='512' height='512' rx='96' fill='%231d4ed8'/%3E%3Cpath d='M256 96v320M160 192h192' stroke='white' stroke-width='40' stroke-linecap='round'/%3E%3C/svg%3E",
+      "sizes": "512x512",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    }
+  ]
+}
