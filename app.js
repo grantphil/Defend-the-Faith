@@ -29,12 +29,24 @@ function renderTopicButtons(items) {
     .join('');
 }
 
+
+function cleanFrameworkPoints(framework = []) {
+  const hiddenPattern = /^(Typical argument|Example argument|How to answer clearly)/i;
+  const cleaned = framework
+    .map((point) => String(point).trim())
+    .filter((point) => point && !hiddenPattern.test(point));
+
+  return [...new Set(cleaned)];
+}
+
 function renderResponse(index) {
   const item = entries[index];
   if (!item) {
     responseCard.innerHTML = '<p>Choose a topic to begin.</p>';
     return;
   }
+
+  const frameworkPoints = cleanFrameworkPoints(item.framework);
 
   responseCard.innerHTML = `
     <h3>${escapeHtml(item.topic)}</h3>
@@ -45,19 +57,41 @@ function renderResponse(index) {
     <p class="example"><strong>Example argument:</strong> ${escapeHtml(item.argumentExample || item.objectionExample || 'No example added yet.')}</p>
 
     <h4 class="section-title">How to answer clearly</h4>
-    <p><strong>Typical argument (defined):</strong> ${escapeHtml(item.argumentDefinition || item.typicalObjection || 'No argument definition added yet.')}</p>
-    <p class="example"><strong>Example argument:</strong> ${escapeHtml(item.argumentExample || item.objectionExample || 'No example added yet.')}</p>
-
-    <p><strong>How to answer clearly:</strong></p>
     <ol>
-      ${item.framework.map((point) => `<li>${escapeHtml(point)}</li>`).join('')}
+      ${frameworkPoints.map((point) => `<li>${escapeHtml(point)}</li>`).join('')}
     </ol>
+
+    <div class="detail-grid">
+      ${(item.answerDetails || [])
+        .map(
+          (detail) => `
+          <article class="detail-card">
+            <p><strong>${escapeHtml(detail.point)}</strong></p>
+            <p>${escapeHtml(detail.detail)}</p>
+            <p class="detail-example"><strong>Example:</strong> ${escapeHtml(detail.example)}</p>
+          </article>
+        `,
+        )
+        .join('')}
+    </div>
 
     <p class="scripture"><strong>Scripture anchors:</strong> ${item.scripture.map(escapeHtml).join(', ')}</p>
 
     <p class="next-step">
       <strong>Trusted next step:</strong> ${escapeHtml(item.teacher)} — ${escapeHtml(item.resourceTitle)}
     </p>
+
+    <div class="sources">
+      <p><strong>Sources & links:</strong></p>
+      <ul>
+        ${(item.sourceLinks || [])
+          .map(
+            (source) =>
+              `<li><a href="${escapeHtml(source.url)}" target="_blank" rel="noopener noreferrer">${escapeHtml(source.label)}</a></li>`,
+          )
+          .join('')}
+      </ul>
+    </div>
   `;
 }
 
@@ -73,6 +107,8 @@ function matchesSearch(item, query) {
     item.argumentExample || "",
     item.typicalObjection || "",
     item.objectionExample || "",
+    ...(item.answerDetails || []).flatMap((detail) => [detail.point, detail.detail, detail.example]),
+    ...(item.sourceLinks || []).flatMap((source) => [source.label, source.url]),
     ...item.scripture,
     ...item.keywords,
   ]
@@ -142,11 +178,16 @@ installButton.addEventListener('click', async () => {
 });
 
 if ('serviceWorker' in navigator) {
-  navigator.serviceWorker.register('sw.js').catch(() => {
-    // Ignore registration errors in restricted environments.
-  });
+  navigator.serviceWorker
+    .register('sw.js')
+    .then((registration) => registration.update())
+    .catch(() => {
+      // Ignore registration errors in restricted environments.
+    });
 }
 
 loadResources().catch((error) => {
+  const frameworkPoints = cleanFrameworkPoints(item.framework);
+
   responseCard.innerHTML = `<p>Could not load resources: ${escapeHtml(error.message)}</p>`;
 });
