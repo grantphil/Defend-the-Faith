@@ -53,6 +53,32 @@
         "label": "The Gospel Coalition \u2013 Can We Trust the Bible?",
         "url": "https://www.thegospelcoalition.org/article/can-we-still-trust-the-bible/"
       }
+    ],
+    "conversationWalkthrough": [
+      {
+        "step": "1) Clarify the real question",
+        "coach": "Begin by identifying whether the concern is intellectual, moral, or emotional so your answer fits the person.",
+        "sample": "\"When you raise the reliability of the bible, what feels most difficult to believe?\""
+      },
+      {
+        "step": "2) State the Christian claim simply",
+        "coach": "Give one clear thesis sentence before adding evidence.",
+        "sample": "\"Christians believe this: Scripture is historically and textually reliable.\""
+      },
+      {
+        "step": "3) Give one strong reason + Scripture anchor",
+        "coach": "Use one reason at a time and connect it to Scripture to avoid overwhelming the listener.",
+        "sample": "\"One key reason is: Start with manuscript evidence: the New Testament has thousands of early manuscript witnesses. Scripture anchor: 2 Timothy 3:16.\""
+      },
+      {
+        "step": "4) Invite dialogue and next step",
+        "coach": "End with a respectful question and offer a resource for further study.",
+        "sample": "\"Would you like to read one short article/book chapter together and discuss it?\""
+      }
+    ],
+    "confidenceTips": [
+      "Speak calmly and avoid trying to answer every objection at once; clarity beats volume.",
+      "If you do not know an answer, say so honestly and offer to follow up with a trusted source."
     ]
   },
   {
@@ -108,6 +134,32 @@
         "label": "1 Corinthians 15 (BibleGateway)",
         "url": "https://www.biblegateway.com/passage/?search=1+Corinthians+15&version=ESV"
       }
+    ],
+    "conversationWalkthrough": [
+      {
+        "step": "1) Clarify the real question",
+        "coach": "Begin by identifying whether the concern is intellectual, moral, or emotional so your answer fits the person.",
+        "sample": "\"When you raise the resurrection of jesus, what feels most difficult to believe?\""
+      },
+      {
+        "step": "2) State the Christian claim simply",
+        "coach": "Give one clear thesis sentence before adding evidence.",
+        "sample": "\"Christians believe this: The resurrection is the best explanation of the historical data.\""
+      },
+      {
+        "step": "3) Give one strong reason + Scripture anchor",
+        "coach": "Use one reason at a time and connect it to Scripture to avoid overwhelming the listener.",
+        "sample": "\"One key reason is: Present key facts accepted by many scholars: crucifixion, empty tomb claims, post-resurrection appearances, transformed disciples. Scripture anchor: 1 Corinthians 15:3-8.\""
+      },
+      {
+        "step": "4) Invite dialogue and next step",
+        "coach": "End with a respectful question and offer a resource for further study.",
+        "sample": "\"Would you like to read one short article/book chapter together and discuss it?\""
+      }
+    ],
+    "confidenceTips": [
+      "Speak calmly and avoid trying to answer every objection at once; clarity beats volume.",
+      "If you do not know an answer, say so honestly and offer to follow up with a trusted source."
     ]
   },
   {
@@ -164,6 +216,32 @@
         "label": "Romans 8 (BibleGateway)",
         "url": "https://www.biblegateway.com/passage/?search=Romans+8&version=ESV"
       }
+    ],
+    "conversationWalkthrough": [
+      {
+        "step": "1) Clarify the real question",
+        "coach": "Begin by identifying whether the concern is intellectual, moral, or emotional so your answer fits the person.",
+        "sample": "\"When you raise the problem of evil, what feels most difficult to believe?\""
+      },
+      {
+        "step": "2) State the Christian claim simply",
+        "coach": "Give one clear thesis sentence before adding evidence.",
+        "sample": "\"Christians believe this: Christian faith gives a coherent account of evil, justice, and hope.\""
+      },
+      {
+        "step": "3) Give one strong reason + Scripture anchor",
+        "coach": "Use one reason at a time and connect it to Scripture to avoid overwhelming the listener.",
+        "sample": "\"One key reason is: Distinguish logical and emotional forms of the problem. Scripture anchor: Romans 8:18-39.\""
+      },
+      {
+        "step": "4) Invite dialogue and next step",
+        "coach": "End with a respectful question and offer a resource for further study.",
+        "sample": "\"Would you like to read one short article/book chapter together and discuss it?\""
+      }
+    ],
+    "confidenceTips": [
+      "Speak calmly and avoid trying to answer every objection at once; clarity beats volume.",
+      "If you do not know an answer, say so honestly and offer to follow up with a trusted source."
     ]
   },
   {
@@ -219,6 +297,32 @@
         "label": "Matthew 28:19 (BibleGateway)",
         "url": "https://www.biblegateway.com/passage/?search=Matthew+28%3A19&version=ESV"
       }
+    ],
+    "conversationWalkthrough": [
+      {
+        "step": "1) Clarify the real question",
+        "coach": "Begin by identifying whether the concern is intellectual, moral, or emotional so your answer fits the person.",
+        "sample": "\"When you raise the trinity, what feels most difficult to believe?\""
+      },
+      {
+        "step": "2) State the Christian claim simply",
+        "coach": "Give one clear thesis sentence before adding evidence.",
+        "sample": "\"Christians believe this: The one true God eternally exists as Father, Son, and Holy Spirit.\""
+      },
+      {
+        "step": "3) Give one strong reason + Scripture anchor",
+        "coach": "Use one reason at a time and connect it to Scripture to avoid overwhelming the listener.",
+        "sample": "\"One key reason is: Affirm monotheism from Scripture. Scripture anchor: Matthew 28:19.\""
+      },
+      {
+        "step": "4) Invite dialogue and next step",
+        "coach": "End with a respectful question and offer a resource for further study.",
+        "sample": "\"Would you like to read one short article/book chapter together and discuss it?\""
+      }
+    ],
+    "confidenceTips": [
+      "Speak calmly and avoid trying to answer every objection at once; clarity beats volume.",
+      "If you do not know an answer, say so honestly and offer to follow up with a trusted source."
     ]
   },
   {
@@ -274,6 +378,32 @@
         "label": "1 Peter 3:15 (BibleGateway)",
         "url": "https://www.biblegateway.com/passage/?search=1+Peter+3%3A15&version=ESV"
       }
+    ],
+    "conversationWalkthrough": [
+      {
+        "step": "1) Clarify the real question",
+        "coach": "Begin by identifying whether the concern is intellectual, moral, or emotional so your answer fits the person.",
+        "sample": "\"When you raise faith and reason, what feels most difficult to believe?\""
+      },
+      {
+        "step": "2) State the Christian claim simply",
+        "coach": "Give one clear thesis sentence before adding evidence.",
+        "sample": "\"Christians believe this: Christian faith is rational trust grounded in truth, not blind leap.\""
+      },
+      {
+        "step": "3) Give one strong reason + Scripture anchor",
+        "coach": "Use one reason at a time and connect it to Scripture to avoid overwhelming the listener.",
+        "sample": "\"One key reason is: Define biblical faith as trust based on God's revealed character and acts. Scripture anchor: Isaiah 1:18.\""
+      },
+      {
+        "step": "4) Invite dialogue and next step",
+        "coach": "End with a respectful question and offer a resource for further study.",
+        "sample": "\"Would you like to read one short article/book chapter together and discuss it?\""
+      }
+    ],
+    "confidenceTips": [
+      "Speak calmly and avoid trying to answer every objection at once; clarity beats volume.",
+      "If you do not know an answer, say so honestly and offer to follow up with a trusted source."
     ]
   },
   {
@@ -329,6 +459,32 @@
         "label": "Acts 4:12 (BibleGateway)",
         "url": "https://www.biblegateway.com/passage/?search=Acts+4%3A12&version=ESV"
       }
+    ],
+    "conversationWalkthrough": [
+      {
+        "step": "1) Clarify the real question",
+        "coach": "Begin by identifying whether the concern is intellectual, moral, or emotional so your answer fits the person.",
+        "sample": "\"When you raise exclusivity of christ, what feels most difficult to believe?\""
+      },
+      {
+        "step": "2) State the Christian claim simply",
+        "coach": "Give one clear thesis sentence before adding evidence.",
+        "sample": "\"Christians believe this: Jesus uniquely reconciles sinners to God.\""
+      },
+      {
+        "step": "3) Give one strong reason + Scripture anchor",
+        "coach": "Use one reason at a time and connect it to Scripture to avoid overwhelming the listener.",
+        "sample": "\"One key reason is: Explain Jesus' unique identity and work in Scripture. Scripture anchor: John 14:6.\""
+      },
+      {
+        "step": "4) Invite dialogue and next step",
+        "coach": "End with a respectful question and offer a resource for further study.",
+        "sample": "\"Would you like to read one short article/book chapter together and discuss it?\""
+      }
+    ],
+    "confidenceTips": [
+      "Speak calmly and avoid trying to answer every objection at once; clarity beats volume.",
+      "If you do not know an answer, say so honestly and offer to follow up with a trusted source."
     ]
   },
   {
@@ -384,6 +540,32 @@
         "label": "Romans 2:14-15 (BibleGateway)",
         "url": "https://www.biblegateway.com/passage/?search=Romans+2%3A14-15&version=ESV"
       }
+    ],
+    "conversationWalkthrough": [
+      {
+        "step": "1) Clarify the real question",
+        "coach": "Begin by identifying whether the concern is intellectual, moral, or emotional so your answer fits the person.",
+        "sample": "\"When you raise moral argument, what feels most difficult to believe?\""
+      },
+      {
+        "step": "2) State the Christian claim simply",
+        "coach": "Give one clear thesis sentence before adding evidence.",
+        "sample": "\"Christians believe this: Objective moral values are best explained by God's existence and character.\""
+      },
+      {
+        "step": "3) Give one strong reason + Scripture anchor",
+        "coach": "Use one reason at a time and connect it to Scripture to avoid overwhelming the listener.",
+        "sample": "\"One key reason is: Ask whether real moral obligations exist beyond preference. Scripture anchor: Romans 2:14-15.\""
+      },
+      {
+        "step": "4) Invite dialogue and next step",
+        "coach": "End with a respectful question and offer a resource for further study.",
+        "sample": "\"Would you like to read one short article/book chapter together and discuss it?\""
+      }
+    ],
+    "confidenceTips": [
+      "Speak calmly and avoid trying to answer every objection at once; clarity beats volume.",
+      "If you do not know an answer, say so honestly and offer to follow up with a trusted source."
     ]
   },
   {
@@ -439,6 +621,32 @@
         "label": "1 John 5:13 (BibleGateway)",
         "url": "https://www.biblegateway.com/passage/?search=1+John+5%3A13&version=ESV"
       }
+    ],
+    "conversationWalkthrough": [
+      {
+        "step": "1) Clarify the real question",
+        "coach": "Begin by identifying whether the concern is intellectual, moral, or emotional so your answer fits the person.",
+        "sample": "\"When you raise holiness and assurance, what feels most difficult to believe?\""
+      },
+      {
+        "step": "2) State the Christian claim simply",
+        "coach": "Give one clear thesis sentence before adding evidence.",
+        "sample": "\"Christians believe this: The gospel produces both deep assurance and real sanctification.\""
+      },
+      {
+        "step": "3) Give one strong reason + Scripture anchor",
+        "coach": "Use one reason at a time and connect it to Scripture to avoid overwhelming the listener.",
+        "sample": "\"One key reason is: Ground assurance in Christ's finished work, not fluctuating emotion. Scripture anchor: Romans 8:1.\""
+      },
+      {
+        "step": "4) Invite dialogue and next step",
+        "coach": "End with a respectful question and offer a resource for further study.",
+        "sample": "\"Would you like to read one short article/book chapter together and discuss it?\""
+      }
+    ],
+    "confidenceTips": [
+      "Speak calmly and avoid trying to answer every objection at once; clarity beats volume.",
+      "If you do not know an answer, say so honestly and offer to follow up with a trusted source."
     ]
   }
 ]

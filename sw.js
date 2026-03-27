@@ -1,5 +1,5 @@
-const CACHE_NAME = "defend-faith-v4";
-const APP_SHELL = ["./", "index.html", "styles.css", "app.js", "manifest.json", "data/resources.json"];
+const CACHE_NAME = "defend-faith-v5";
+const APP_SHELL = ["./", "index.html", "styles.css", "app.js", "manifest.webmanifest", "data/resources.json"];
 
 self.addEventListener("install", (event) => {
   event.waitUntil(

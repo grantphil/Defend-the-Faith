@@ -182,6 +182,27 @@ body {
   color: var(--primary-dark);
 }
 
+
+.walkthrough {
+  border-top: 1px solid var(--border);
+  margin-top: 0.9rem;
+  padding-top: 0.7rem;
+}
+
+.walkthrough ol,
+.walkthrough ul {
+  margin: 0.45rem 0;
+  padding-left: 1.2rem;
+}
+
+.walkthrough li {
+  margin-bottom: 0.45rem;
+}
+
+.walkthrough p {
+  margin: 0.3rem 0;
+}
+
 .sources {
   border-top: 1px solid var(--border);
   margin-top: 0.7rem;

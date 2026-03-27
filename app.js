@@ -81,6 +81,27 @@ function renderResponse(index) {
       <strong>Trusted next step:</strong> ${escapeHtml(item.teacher)} — ${escapeHtml(item.resourceTitle)}
     </p>
 
+    <div class="walkthrough">
+      <p><strong>Walkthrough: answer clearly and confidently</strong></p>
+      <ol>
+        ${(item.conversationWalkthrough || [])
+          .map(
+            (step) => `
+              <li>
+                <p><strong>${escapeHtml(step.step)}</strong></p>
+                <p>${escapeHtml(step.coach)}</p>
+                <p class="detail-example"><strong>Try saying:</strong> ${escapeHtml(step.sample)}</p>
+              </li>
+            `,
+          )
+          .join('')}
+      </ol>
+      <p><strong>Confidence tips:</strong></p>
+      <ul>
+        ${(item.confidenceTips || []).map((tip) => `<li>${escapeHtml(tip)}</li>`).join('')}
+      </ul>
+    </div>
+
     <div class="sources">
       <p><strong>Sources & links:</strong></p>
       <ul>
@@ -109,6 +130,8 @@ function matchesSearch(item, query) {
     item.objectionExample || "",
     ...(item.answerDetails || []).flatMap((detail) => [detail.point, detail.detail, detail.example]),
     ...(item.sourceLinks || []).flatMap((source) => [source.label, source.url]),
+    ...(item.conversationWalkthrough || []).flatMap((step) => [step.step, step.coach, step.sample]),
+    ...(item.confidenceTips || []),
     ...item.scripture,
     ...item.keywords,
   ]
