@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Defend the Christian faith with Scripture-centered apologetics and trusted Protestant sources."
+    />
+    <meta name="application-name" content="Defend the Faith" />
+    <meta name="apple-mobile-web-app-title" content="Defend the Faith" />
+    <title>Defend the Faith</title>
+    <link rel="manifest" href="manifest.webmanifest" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="hero">
+      <div class="hero__content">
+        <p class="eyebrow">Defend the Faith</p>
+        <h1>Clean, practical apologetics help for real conversations.</h1>
+        <p class="hero__text">
+          Biblical responses, trusted Protestant theologians, and easy topic navigation for iPhone, Android, Mac, and PC.
+        </p>
+        <div class="hero__actions">
+          <a class="btn btn--light" href="#topics">Browse Topics</a>
+          <a class="btn btn--ghost" href="#resources">Search Resources</a>
+          <button id="installButton" class="btn btn--light">Install App</button>
+        </div>
+      </div>
+    </header>
+
+    <main class="layout">
+      <aside class="panel" id="topics">
+        <h2>Topics</h2>
+        <p class="muted">Tap a topic to load a concise response plan.</p>
+        <div id="topicButtons" class="topic-buttons" aria-label="Apologetics topics"></div>
+      </aside>
+
+      <section class="content-stack">
+        <article class="panel">
+          <h2>Quick Response Builder</h2>
+          <div id="responseCard" class="response-card" aria-live="polite"></div>
+        </article>
+
+        <article class="panel">
+          <h2>Conversation Checklist</h2>
+          <ol class="checklist">
+            <li>
+              <strong>Listen and clarify the real objection</strong>
+              <p>Ask a clarifying question first so you answer the person’s actual concern, not a different one.</p>
+              <p class="mini-example"><strong>Example:</strong> “Is your biggest concern evidence, hypocrisy, or suffering?”</p>
+            </li>
+            <li>
+              <strong>State the Christian claim in one sentence</strong>
+              <p>Lead with a concise thesis before giving supporting reasons.</p>
+              <p class="mini-example"><strong>Example:</strong> “Christians believe Jesus truly rose from the dead in history.”</p>
+            </li>
+            <li>
+              <strong>Give one reason + one Scripture anchor</strong>
+              <p>Use one strong point at a time and attach one key passage rather than overwhelming with too much information.</p>
+              <p class="mini-example"><strong>Example:</strong> “One key reason is the early eyewitness testimony in 1 Corinthians 15.”</p>
+            </li>
+            <li>
+              <strong>Invite dialogue and offer a trusted next step</strong>
+              <p>End with humility, ask a follow-up question, and share one reliable Protestant resource link.</p>
+              <p class="mini-example"><strong>Example:</strong> “Would you be open to reading this short article together and discussing it?”</p>
+            </li>
+          </ol>
+        </article>
+
+        <article class="panel" id="resources">
+          <h2>Trusted Resource Library</h2>
+          <label for="searchInput">Search by topic, teacher, verse, or keyword</label>
+          <input id="searchInput" type="search" placeholder="resurrection, Trinity, Keller, 1 Peter 3:15" />
+          <div id="resourceList" class="resource-grid" aria-live="polite"></div>
+        </article>
+      </section>
+    </main>
+
+    <footer>
+      <small>
+        This tool is an aid for discipleship conversations. Always verify teaching with Scripture and your local church leadership. <span class="build-id">Build: 2026-03-27</span>
+      </small>
+    </footer>
+
+    <script src="app.js" type="module"></script>
+  </body>
+</html>
