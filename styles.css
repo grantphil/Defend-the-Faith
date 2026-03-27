@@ -59,13 +59,6 @@ body {
   gap: 0.7rem;
 }
 
-.install-helper {
-  margin-top: 0.65rem;
-  color: #dbeafe;
-  font-size: 0.92rem;
-  min-height: 1.25rem;
-}
-
 .btn {
   display: inline-flex;
   align-items: center;

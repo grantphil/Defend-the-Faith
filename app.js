@@ -3,7 +3,6 @@ const responseCard = document.getElementById('responseCard');
 const searchInput = document.getElementById('searchInput');
 const resourceList = document.getElementById('resourceList');
 const installButton = document.getElementById('installButton');
-const installHelper = document.getElementById('installHelper');
 
 let entries = [];
 let activeIndex = 0;
@@ -29,25 +28,25 @@ function detectPlatform() {
   return 'desktop';
 }
 
-function showInstallInstructions() {
+function showInstallInstructionsPopup() {
   const platform = detectPlatform();
 
   if (platform === 'standalone') {
-    installHelper.textContent = 'The app is already installed on this device.';
+    window.alert('Defend the Faith is already installed on this device.');
     return;
   }
 
   if (platform === 'ios') {
-    installHelper.textContent = 'iPhone/iPad: In Safari, tap Share (square with arrow) → Add to Home Screen → Add.';
+    window.alert('Install on iPhone/iPad:\n1) Open in Safari\n2) Tap Share (square with arrow)\n3) Tap Add to Home Screen\n4) Tap Add');
     return;
   }
 
   if (platform === 'android') {
-    installHelper.textContent = 'Android: Tap browser menu (⋮) → Install app / Add to Home screen → Install.';
+    window.alert('Install on Android:\n1) Open browser menu (⋮)\n2) Tap Install app / Add to Home screen\n3) Tap Install');
     return;
   }
 
-  installHelper.textContent = 'Desktop: Use the Install icon in the address bar, or browser menu → Install app.';
+  window.alert('Install on desktop:\nUse the install icon in the address bar or browser menu → Install app.');
 }
 
 function cleanFrameworkPoints(framework = []) {
@@ -222,7 +221,6 @@ searchInput.addEventListener('input', (event) => {
 window.addEventListener('beforeinstallprompt', (event) => {
   event.preventDefault();
   deferredPrompt = event;
-  installHelper.textContent = 'Install is available: tap Install App to continue.';
 });
 
 installButton.addEventListener('click', async () => {
@@ -230,11 +228,10 @@ installButton.addEventListener('click', async () => {
     deferredPrompt.prompt();
     await deferredPrompt.userChoice;
     deferredPrompt = null;
-    installHelper.textContent = 'If you accepted install, the app icon should appear shortly.';
     return;
   }
 
-  showInstallInstructions();
+  showInstallInstructionsPopup();
 });
 
 if ('serviceWorker' in navigator) {
@@ -246,7 +243,6 @@ if ('serviceWorker' in navigator) {
     });
 }
 
-showInstallInstructions();
 
 loadResources().catch((error) => {
   responseCard.innerHTML = `<p>Could not load resources: ${escapeHtml(error.message)}</p>`;
