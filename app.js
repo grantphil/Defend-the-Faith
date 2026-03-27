@@ -3,6 +3,7 @@ const responseCard = document.getElementById('responseCard');
 const searchInput = document.getElementById('searchInput');
 const resourceList = document.getElementById('resourceList');
 const installButton = document.getElementById('installButton');
+const installHelper = document.getElementById('installHelper');
 
 let entries = [];
 let activeIndex = 0;
@@ -16,6 +17,48 @@ const escapeHtml = (value) =>
     .replaceAll('"', '&quot;')
     .replaceAll("'", '&#39;');
 
+function detectPlatform() {
+  const ua = navigator.userAgent || '';
+  const isIOS = /iPad|iPhone|iPod/.test(ua) || (/Macintosh/.test(ua) && 'ontouchend' in document);
+  const isAndroid = /Android/.test(ua);
+  const isStandalone = window.matchMedia('(display-mode: standalone)').matches || Boolean(navigator.standalone);
+
+  if (isStandalone) return 'standalone';
+  if (isIOS) return 'ios';
+  if (isAndroid) return 'android';
+  return 'desktop';
+}
+
+function showInstallInstructions() {
+  const platform = detectPlatform();
+
+  if (platform === 'standalone') {
+    installHelper.textContent = 'The app is already installed on this device.';
+    return;
+  }
+
+  if (platform === 'ios') {
+    installHelper.textContent = 'iPhone/iPad: In Safari, tap Share (square with arrow) → Add to Home Screen → Add.';
+    return;
+  }
+
+  if (platform === 'android') {
+    installHelper.textContent = 'Android: Tap browser menu (⋮) → Install app / Add to Home screen → Install.';
+    return;
+  }
+
+  installHelper.textContent = 'Desktop: Use the Install icon in the address bar, or browser menu → Install app.';
+}
+
+function cleanFrameworkPoints(framework = []) {
+  const hiddenPattern = /^(Typical argument|Example argument|How to answer clearly)/i;
+  const cleaned = framework
+    .map((point) => String(point).trim())
+    .filter((point) => point && !hiddenPattern.test(point));
+
+  return [...new Set(cleaned)];
+}
+
 function renderTopicButtons(items) {
   topicButtons.innerHTML = items
     .map(
@@ -27,16 +70,6 @@ function renderTopicButtons(items) {
     `,
     )
     .join('');
-}
-
-
-function cleanFrameworkPoints(framework = []) {
-  const hiddenPattern = /^(Typical argument|Example argument|How to answer clearly)/i;
-  const cleaned = framework
-    .map((point) => String(point).trim())
-    .filter((point) => point && !hiddenPattern.test(point));
-
-  return [...new Set(cleaned)];
 }
 
 function renderResponse(index) {
@@ -124,10 +157,10 @@ function matchesSearch(item, query) {
     item.teacher,
     item.resourceTitle,
     item.resourceType,
-    item.argumentDefinition || "",
-    item.argumentExample || "",
-    item.typicalObjection || "",
-    item.objectionExample || "",
+    item.argumentDefinition || '',
+    item.argumentExample || '',
+    item.typicalObjection || '',
+    item.objectionExample || '',
     ...(item.answerDetails || []).flatMap((detail) => [detail.point, detail.detail, detail.example]),
     ...(item.sourceLinks || []).flatMap((source) => [source.label, source.url]),
     ...(item.conversationWalkthrough || []).flatMap((step) => [step.step, step.coach, step.sample]),
@@ -189,15 +222,19 @@ searchInput.addEventListener('input', (event) => {
 window.addEventListener('beforeinstallprompt', (event) => {
   event.preventDefault();
   deferredPrompt = event;
-  installButton.hidden = false;
+  installHelper.textContent = 'Install is available: tap Install App to continue.';
 });
 
 installButton.addEventListener('click', async () => {
-  if (!deferredPrompt) return;
-  deferredPrompt.prompt();
-  await deferredPrompt.userChoice;
-  deferredPrompt = null;
-  installButton.hidden = true;
+  if (deferredPrompt) {
+    deferredPrompt.prompt();
+    await deferredPrompt.userChoice;
+    deferredPrompt = null;
+    installHelper.textContent = 'If you accepted install, the app icon should appear shortly.';
+    return;
+  }
+
+  showInstallInstructions();
 });
 
 if ('serviceWorker' in navigator) {
@@ -209,8 +246,8 @@ if ('serviceWorker' in navigator) {
     });
 }
 
-loadResources().catch((error) => {
-  const frameworkPoints = cleanFrameworkPoints(item.framework);
+showInstallInstructions();
 
+loadResources().catch((error) => {
   responseCard.innerHTML = `<p>Could not load resources: ${escapeHtml(error.message)}</p>`;
 });
