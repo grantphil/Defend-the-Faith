@@ -148,6 +148,13 @@ body {
   margin-top: 0;
 }
 
+.plain-summary {
+  background: #eef2ff;
+  border: 1px solid #c7d2fe;
+  border-radius: 0.65rem;
+  padding: 0.7rem;
+}
+
 .response-card ol {
   margin-top: 0.4rem;
 }

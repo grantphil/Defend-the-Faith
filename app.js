@@ -83,6 +83,7 @@ function renderResponse(index) {
   responseCard.innerHTML = `
     <h3>${escapeHtml(item.topic)}</h3>
     <p class="response-meta"><strong>Core claim:</strong> ${escapeHtml(item.claim)}</p>
+    <p class="plain-summary"><strong>Simple explanation:</strong> ${escapeHtml(item.plainSummary || 'Summary coming soon.')}</p>
 
     <h4 class="section-title">Understand the objection</h4>
     <p><strong>Typical argument (defined):</strong> ${escapeHtml(item.argumentDefinition || item.typicalObjection || 'No argument definition added yet.')}</p>
